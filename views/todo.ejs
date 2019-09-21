@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<head>
+    <title>To Do List</title>
+    <script src="jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="/assets/styles.css" type="text/css">
+    <link rel="icon" href="http://www.codechefvit.com/title.jpg">
+</head>
+<body>
+    <h1>To Do List</h1>
+    <div id="todo-table" class="centre">
+        <form action="" method="POST">
+            <div class="centre">
+                <div class="same-line">
+            <input type="text" name="item" placeholder="Add New Item" required>
+        </div>
+        <div class="same-line">
+            <button type="submit">Add item</button>
+        </div>
+        </div>
+        </form>
+        <ul>
+            <% for(var i=0; i < todos.length; i++){ %>
+                <li><%= todos[i].item %></li>
+            <% } %>
+        </ul>
+    </div>   
+    <script src="/assets/todo-list.js"></script> 
+</body>
+</html>
+

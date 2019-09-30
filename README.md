@@ -2,6 +2,8 @@
 
 #### CodeChef VIT- Building Functional WebApps.
 
+GitHub repo for getting the assets required for attending the workshop- Building Functional WebApps
+
 ## Steps to run
 ```
 1) git clone https://github.com/RajatSablok/to-do-workshop.git
